@@ -9,8 +9,8 @@ main{
 }
 #teclado{
    border: 1px solid black;
-    width:50vw;
-    height: 32vh;
+    width:35vw;
+    height: 22vh;
 }
 #doisc_acima{
     display:flex;
