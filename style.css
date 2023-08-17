@@ -1,0 +1,85 @@
+*{ border-collapse: collapse;
+}
+main{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    align-items: center;
+    height: 100vh;
+}
+#teclado{
+   border: 1px solid black;
+    width:50vw;
+    height: 32vh;
+}
+#doisc_acima{
+    display:flex;
+    width: 100%;
+    height:20%;
+}
+.teclas{
+    border-radius: 10%;
+    border: 1px solid black;
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#acento_agudo_abre_aspas{
+    border: 1px solid black;
+    padding-left: 6px;
+    padding-top:3px;
+    width: 10%;
+    display: block;
+}
+
+
+/*
+  
+  escrevendo agora nessa segunda seção a segunda fileira do teclado
+  que representa a primeira segunda linha do teclado de cima para baixo
+
+*/
+
+
+#primeirac_acima,#principal_de_descanso,#primeirac_abaixo, #segunda_fileira_abaixo{
+    display:flex;
+    width: 100%;
+    height:20%;
+}
+
+#espaço{
+    width: 80%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#enter_baixo{
+    border-top: none;
+    width: 10%;
+    border-radius:none;
+    border-right:none;
+}
+#enter_cima{
+    border-bottom:none;
+    width:16%;
+    border-radius: none;
+    border-right:none;
+    font-size:0.6rem;
+}
+
+#caps{
+    font-size:0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:22%;
+}
+#tab{
+    font-size: 1.5rem;
+}
+#back{
+    font-size: 0.6rem;
+    width:24%;
+}
